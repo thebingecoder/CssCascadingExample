@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #757575;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.clear:after {
+  content: ' ';
+  display: table;
+  clear: both;
+  visibility: hidden;
+}
+
+.css-order h1 {
+  font-size: 48px;
+  color: blue;
+}
+
+.css-specific .heading {
+  color: red;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.para-wrapper {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.demo h1 {
+  font-size: 36px;
+  text-align: center;
+  padding: 30px;
+}
+.demo .c-classes ul {
+  text-align: center;
+}
+.demo .c-classes ul li {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.demo .c-classes ul li.blue {
+  background: blue;
+}
+.demo .c-classes ul li.green {
+  background: green;
+}
+.demo .c-classes ul li.black {
+  background: #000;
+}
+.demo .inline-style ul {
+  text-align: center;
+}
+.demo .inline-style ul li {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.demo .p-classes ul {
+  text-align: center;
+}
+.demo .p-classes ul li {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 2px solid transparent;
+  transition: all .4s;
+}
+.demo .p-classes ul li:hover {
+  border: 2px solid red;
+  color: red;
+  background: transparent;
+}
+.demo .p-classes ul li.change {
+  background: blue;
+}
+.demo .p-classes ul li.change:hover {
+  border-color: blue;
+  color: blue;
+  background: transparent;
+}
+.demo .p-classes ul li.change + li {
+  background: green;
+}
+.demo .p-classes ul li.change + li:hover {
+  border-color: green;
+  color: green;
+  background: transparent;
+}
+.demo .p-classes ul li.change ~ li {
+  background: black;
+}
+.demo .p-classes ul li.change ~ li:hover {
+  border-color: black;
+  color: black;
+  background: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
